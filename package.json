@@ -2,5 +2,15 @@
   "name": "tiptap-footnotes",
   "version": "1.1.0",
   "keywords": [],
-  "author": ""
+  "author": "",
+  "main": "./package/dist/index.js",
+  "module": "./package/dist/index.mjs",
+  "types": "./package/dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./package/dist/index.mjs",
+      "require": "./package/dist/index.js",
+      "types": "./package/dist/index.d.ts"
+    }
+  }
 }
